@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WebShopHomeApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(WebShopHomeApplication.class, args);
 	}
 
