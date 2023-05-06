@@ -27,7 +27,7 @@ public HashMap <Integer, String> priceList = new HashMap<>(Map.of(
 
 
     @Override
-    public void addItem(Integer id, String item) {
-       priceList.put(id,item);
+    public String addItem(Integer id, String item) {
+       return priceList.put(id,item);
     }
 }

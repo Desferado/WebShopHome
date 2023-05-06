@@ -6,5 +6,5 @@ public interface ShopService {
 
     HashMap<Integer, String> getPriceList();
 
-    void addItem (Integer id, String item);
+    String addItem (Integer id, String item);
 }
